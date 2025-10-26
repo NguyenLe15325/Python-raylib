@@ -166,6 +166,8 @@ Experiment with gravity, collisions, forces, and realistic object interactions.
 
 *The crown jewel of this collection - a fully interactive 3D physics sandbox!*
 
+![Physics Simulation Demo](assets/Physics_simulation.gif)
+
 </div>
 
 #### 🎯 What Makes It Special
@@ -188,6 +190,7 @@ This demo showcases a complete 3D physics simulation environment where you can i
 | `Space` / `Left Shift` | Move camera up/down |
 | `Mouse` | Look around (first-person view) |
 | `Left Click` | Grab/hold sphere |
+| `Mouse Scroll` | Adjust grabbed object's distance from camera |
 | `Release Click` | Throw sphere (velocity based on mouse movement) |
 | `ESC` | Exit simulation |
 
