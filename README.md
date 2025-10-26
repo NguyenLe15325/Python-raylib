@@ -21,6 +21,8 @@ This repository presents a variety of small games and graphics demos written in 
 
 Whether you're learning game development or experimenting with new ideas, these demos provide hands-on examples of core concepts in action.
 
+> **Note:** Demo code in this repository was generated with assistance from Google Gemini and Claude AI, and refined through experimentation.
+
 ---
 
 ## 📂 Contents
@@ -166,7 +168,7 @@ Experiment with gravity, collisions, forces, and realistic object interactions.
 
 *The crown jewel of this collection - a fully interactive 3D physics sandbox!*
 
-![Physics Simulation Demo](assets/Physics_simulation.gif)
+<img src="assets/Physics_simulation.gif" alt="Physics Simulation Demo" loop="infinite" />
 
 </div>
 
@@ -273,6 +275,8 @@ You're free to use, modify, and distribute this code for personal or commercial 
 **[raylib](https://www.raylib.com/)** — Amazing lightweight graphics/game library by [Ramon Santamaria](https://github.com/raysan5)
 
 **The open-source Python community** — For bindings, examples, and endless inspiration
+
+**[Google Gemini](https://gemini.google.com/)** & **[Claude AI](https://claude.ai/)** — AI assistance in generating and refining demo code
 
 </div>
 
