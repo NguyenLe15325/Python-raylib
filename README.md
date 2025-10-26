@@ -158,6 +158,101 @@ Experiment with gravity, collisions, forces, and realistic object interactions.
 
 ---
 
+## ⭐ Featured Project: 3D Physics Simulation
+
+<div align="center">
+
+### 🚀 `20.Physics_simulation.py` - Interactive 3D Physics Engine
+
+*The crown jewel of this collection - a fully interactive 3D physics sandbox!*
+
+</div>
+
+#### 🎯 What Makes It Special
+
+This demo showcases a complete 3D physics simulation environment where you can interact with multiple spherical objects in real-time. It's not just a demonstration—it's a fully playable physics sandbox that responds to your every action!
+
+#### ✨ Key Features
+
+- **🕹️ Free Camera Movement** — Navigate through 3D space with WASD controls and mouse look
+- **🤲 Object Interaction** — Hold and throw spheres with realistic physics
+- **⚡ Real-time Physics** — Watch objects bounce, collide, and interact with gravity
+- **🎨 Multiple Objects** — Experiment with spheres of different sizes, masses, and colors
+- **🔧 Highly Configurable** — Tweak physics parameters to create your own simulation
+
+#### 🎮 Controls
+
+| Input | Action |
+|-------|--------|
+| `W` `A` `S` `D` | Move camera forward/left/back/right |
+| `Space` / `Left Shift` | Move camera up/down |
+| `Mouse` | Look around (first-person view) |
+| `Left Click` | Grab/hold sphere |
+| `Release Click` | Throw sphere (velocity based on mouse movement) |
+| `ESC` | Exit simulation |
+
+#### ⚙️ Configurable Parameters
+
+The simulation is designed to be tweaked! Here are some parameters you can adjust:
+
+```python
+# Screen Settings
+SCREEN_WIDTH = 1200
+SCREEN_HEIGHT = 800
+FPS = 60
+
+# Physics Constants
+GRAVITY_ACCEL = Vector3(0.0, -9.81, 0.0)  # Earth-like gravity
+BOUNDS_SIZE = 15.0                         # Simulation cube size
+FRICTION_FACTOR = 0.85                     # Bounce elasticity (0-1)
+THROW_FACTOR = 0.5                         # Throw strength multiplier
+
+# Camera Settings
+CAM_SPEED = 15.0                          # Movement speed
+CAM_SENSITIVITY = 0.15                    # Mouse sensitivity
+CAMERA_BOUNDS_SIZE = 18.0                 # Camera movement limits
+```
+
+#### 🎨 Customize Your Spheres
+
+Create your own physics objects with different properties:
+
+```python
+spheres = [
+    # Small and light - bounces easily
+    Sphere(Vector3(-5.0, 5.0, 0.0), radius=0.7, mass=0.5, color=SKYBLUE),
+    
+    # Medium size - balanced behavior
+    Sphere(Vector3(5.0, 10.0, 0.0), radius=1.5, mass=3.0, color=LIME),
+    
+    # Tiny and floaty - fun to throw
+    Sphere(Vector3(0.0, 15.0, 5.0), radius=0.5, mass=0.2, color=YELLOW),
+    
+    # Large and heavy - powerful collisions
+    Sphere(Vector3(-10.0, 10.0, -5.0), radius=2.0, mass=5.0, color=MAGENTA)
+]
+```
+
+#### 🔬 What You'll Learn
+
+- **3D Camera Systems** — First-person camera with constraints and smooth movement
+- **Vector Physics** — Velocity, acceleration, and force calculations in 3D
+- **Collision Detection** — Sphere-to-sphere and sphere-to-boundary collisions
+- **Realistic Interactions** — Momentum transfer, friction, and energy conservation
+- **Input Handling** — Mouse picking and drag-to-throw mechanics
+- **Performance Optimization** — Efficient physics updates at 60 FPS
+
+#### 💡 Experiment Ideas
+
+Try these modifications to learn more:
+
+1. **Adjust gravity** — What happens in low gravity? Or with reversed gravity?
+2. **Change elasticity** — Make everything super bouncy or completely inelastic
+3. **Add more spheres** — How many objects can the simulation handle?
+4. **Modify masses** — Create very heavy or very light objects and observe interactions
+5. **Change bounds** — Make the simulation space larger or smaller
+6. **Add spin** — Implement rotational physics for even more realism
+
 ---
 
 ## 📜 License
@@ -180,6 +275,21 @@ You're free to use, modify, and distribute this code for personal or commercial 
 
 ---
 
+## 🎓 Additional Resources
+
+### 📚 Official Documentation
+- [Raylib Official Website](https://www.raylib.com/)
+- [Raylib Cheatsheet](https://www.raylib.com/cheatsheet/cheatsheet.html)
+- [Raylib Examples](https://www.raylib.com/examples.html)
+- [Python Raylib Documentation](https://electronstudio.github.io/raylib-python-cffi/)
+
+### 🎥 Video Tutorials
+- [The ultimate introduction to Raylib [2D & 3D game dev]](https://www.youtube.com/watch?v=UoAsDlUwjy0&t=422s)
+- [Getting Started with Raylib](https://www.youtube.com/results?search_query=raylib+python+tutorial)
+- [Game Development Tutorials](https://www.youtube.com/results?search_query=raylib+game+development)
+
+---
+
 ## 📧 Contact & Links
 
 <div align="center">
@@ -189,16 +299,6 @@ You're free to use, modify, and distribute this code for personal or commercial 
 [🌟 Star this repo](https://github.com/NguyenLe15325/Python-raylib) • [🐛 Report Bug](https://github.com/NguyenLe15325/Python-raylib/issues) • [💡 Request Feature](https://github.com/NguyenLe15325/Python-raylib/issues)
 
 </div>
-
----
-
-## 🎓 Additional Resources
-
-- [Raylib Official Website](https://www.raylib.com/)
-- [Raylib Cheatsheet](https://www.raylib.com/cheatsheet/cheatsheet.html)
-- [Raylib Examples](https://www.raylib.com/examples.html)
-- [Python Raylib Documentation](https://electronstudio.github.io/raylib-python-cffi/)
-- [The ultimate introduction to Raylib [ 2D & 3D game dev ]](https://www.youtube.com/watch?v=UoAsDlUwjy0&t=422s)
 
 ---
 
