@@ -178,6 +178,17 @@ You're free to use, modify, and distribute this code for personal or commercial 
 
 </div>
 
+---
+
+## 📧 Contact & Links
+
+<div align="center">
+
+**Nguyen Le** • [@NguyenLe15325](https://github.com/NguyenLe15325)
+
+[🌟 Star this repo](https://github.com/NguyenLe15325/Python-raylib) • [🐛 Report Bug](https://github.com/NguyenLe15325/Python-raylib/issues) • [💡 Request Feature](https://github.com/NguyenLe15325/Python-raylib/issues)
+
+</div>
 
 ---
 
