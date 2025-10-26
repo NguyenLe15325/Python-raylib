@@ -278,6 +278,8 @@ You're free to use, modify, and distribute this code for personal or commercial 
 
 **[Google Gemini](https://gemini.google.com/)** & **[Claude AI](https://claude.ai/)** — AI assistance in generating and refining demo code
 
+**[ezgif.com](https://ezgif.com/)** — GIF editing and optimization tools
+
 </div>
 
 ---
