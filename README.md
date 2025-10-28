@@ -95,7 +95,7 @@ Each file demonstrates a different concept. Example files include:
 - **raylib Python binding** — Install via pip:
 
 ```bash
-pip install raylib-py
+pip install raylib
 ```
 
 > **Note:** If you use a different binding or version (e.g., `raylib-python-cffi`), adjust the import statements accordingly.

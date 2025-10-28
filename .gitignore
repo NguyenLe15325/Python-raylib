@@ -1,0 +1,4 @@
+# Ignore Python virtual environment folder
+.venv
+# Ignore Visual Studio Code settings folder
+.vscode
