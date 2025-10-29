@@ -1,4 +1,3 @@
-
 import random
 from raylib import *
 from pyray import *
